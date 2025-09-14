@@ -1,0 +1,124 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/****************fonts*************/
+p {
+  font-size: 1rem;
+  font-family: Fira Sans Condensed;
+  padding-bottom: 4%;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  orphans: 2;
+  widows: 2;
+  text-wrap: balance; /**orphan**/
+}
+
+@font-face {
+  font-family: "bevan";
+  src: url("fonts/bevan-regular-webfont.woff") format("woff"),
+    url("fonts/bevan-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "bevan", serif;
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.372);
+  overflow-wrap: break-word;
+  hyphens: auto;
+  color: rgb(255, 101, 209);
+  font-size: 50px;
+}
+h2 {
+  font-family: "bevan", serif;
+  color: rgb(255, 101, 209);
+  padding: 0%;
+  overflow-wrap: break-word;
+}
+
+h3 {
+  font-family: "bevan", serif;
+  color: rgb(255, 101, 209);
+  font-size: 16px;
+}
+
+/***********index***********/
+dl {
+  font-size: 1rem;
+  font-family: Fira Sans Condensed;
+  border: 2px solid rgb(255, 101, 209);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+dt {
+  text-decoration: underline;
+}
+.macbookair {
+  box-shadow: none;
+}
+
+/**********footer**********/
+footer {
+  font-size: 1rem;
+  font-family: Fira Sans Condensed;
+  border-top: 2px solid rgb(255, 101, 209);
+  padding: 2%;
+  padding-left: 5%;
+  list-style: none;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/**************andet************/
+h1 {
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  margin-bottom: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+main {
+  padding: 5%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.to_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.min_knap {
+  background-color: rgb(255, 101, 209);
+  color: white;
+  font-family: Fira Sans Condensed;
+  padding: 2%;
+  border-radius: 55%;
+
+  text-decoration: none;
+}
